@@ -25,13 +25,19 @@ table {
 	}
 	#gameOVer {
 		position : absolute;
-		left: 45%;
+		/*left: 45%;*/
 		/*top: 20%;*/
 		color: white;
 		background-color: black;
 		padding: 10px;
 		border-radius: 10px;
+		
 		display: none;
+		opacity: 0.5;
+		text-align: center;
+		width: 90%;
+		 top: 50%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
 		
 	}
 </style>
